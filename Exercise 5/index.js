@@ -83,7 +83,7 @@ app.delete('/users/:id', async (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-    console.log('Server running at http://localhost:' + PORT);
+    console.log('http://localhost:'+PORT);
 });
 
 // Function to retrieve all products from the database
